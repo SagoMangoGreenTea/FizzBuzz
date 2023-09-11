@@ -4,11 +4,11 @@
 class FizzBuzz {
 
     public static void main(String[] args) {
-        doFizzBuzz();
+        int i = 0;
+        doFizzBuzz(i);
     }
 
-    private static void doFizzBuzz() {
-        int i = 0;
+    public static void doFizzBuzz(int i) {
         while (i < 100) {
 
             // Find out which numbers divide i.
